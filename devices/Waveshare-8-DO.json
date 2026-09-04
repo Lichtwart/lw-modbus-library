@@ -1,0 +1,135 @@
+{
+  "type": "lw-modbus-slave",
+  "tags": [
+    "DO",
+    "Relais",
+    "Ausgänge",
+    "Waveshare"
+  ],
+  "slave": {
+    "description": "Handbuch: https://www.waveshare.com/modbus-rtu-relay-c.htm",
+    "resetRegisters": [],
+    "isSavingOnStorage": false,
+    "address": 1,
+    "requestInterval": 30,
+    "writeRegisters": [
+      {
+        "address": 0,
+        "name": "DO-1",
+        "type": "coil"
+      },
+      {
+        "name": "DO-2",
+        "address": 1,
+        "type": "coil"
+      },
+      {
+        "name": "DO-3",
+        "address": 2,
+        "type": "coil"
+      },
+      {
+        "name": "DO-4",
+        "address": 3,
+        "type": "coil"
+      },
+      {
+        "name": "DO-5",
+        "address": 4,
+        "type": "coil"
+      },
+      {
+        "name": "DO-6",
+        "address": 5,
+        "type": "coil"
+      },
+      {
+        "name": "DO-7",
+        "address": 6,
+        "type": "coil"
+      },
+      {
+        "name": "DO-8",
+        "address": 7,
+        "type": "coil"
+      }
+    ],
+    "name": "WaveShare 8xDO Type C",
+    "registers": [
+      {
+        "unit": "",
+        "address": 0,
+        "swap": "none",
+        "datatype": "bool",
+        "name": "DO-1",
+        "type": "coil",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-2",
+        "unit": "",
+        "address": 1,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-3",
+        "unit": "",
+        "address": 2,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-4",
+        "unit": "",
+        "address": 3,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-5",
+        "unit": "",
+        "address": 4,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-6",
+        "unit": "",
+        "address": 5,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-7",
+        "unit": "",
+        "address": 6,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-8",
+        "unit": "",
+        "address": 7,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      }
+    ],
+    "id": 1,
+    "isActive": false
+  }
+}

@@ -1,42 +1,44 @@
 {
   "type": "lw-modbus-slave",
+  "tags": [
+    "Leckanzeiger",
+    "SGB"
+  ],
   "slave": {
-    "resetRegisters": [],
     "isSavingOnStorage": false,
     "address": 2,
-    "requestInterval": 20,
-    "writeRegisters": [
+    "requestInterval": 10,
+    "name": "SGB-Fuellleitung",
+    "registers": [
       {
-        "address": 0,
-        "name": "test",
+        "unit": "mbar",
+        "address": 317,
+        "swap": "none",
+        "datatype": "int32",
+        "name": "Druck",
+        "type": "holding"
+      },
+      {
+        "unit": "",
+        "address": 5184,
+        "swap": "none",
+        "datatype": "bool",
+        "name": "Alarm",
+        "changeOfValue": 1,
+        "type": "coil"
+      },
+      {
+        "unit": "",
+        "address": 5202,
+        "swap": "none",
+        "datatype": "bool",
+        "name": "Trockenfilter",
+        "changeOfValue": 1,
         "type": "coil"
       }
     ],
-    "name": "SGB Leckanzeiger",
-    "registers": [
-      {
-        "unit": "C",
-        "address": 64,
-        "swap": "none",
-        "datatype": "int16",
-        "name": "CoreTemperature",
-        "scalingFactor": 1,
-        "type": "holding"
-      }
-    ],
-    "description": "",
     "id": 2,
     "isActive": false,
-    "inactiveReadRegisters": [
-      {
-        "unit": "",
-        "address": 6,
-        "swap": "none",
-        "datatype": "uint16",
-        "name": "DeviceStartAddress",
-        "scalingFactor": 1,
-        "type": "holding"
-      }
-    ]
+    "resetRegisters": []
   }
 }

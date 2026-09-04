@@ -1,0 +1,215 @@
+{
+  "type": "lw-modbus-slave",
+  "tags": [
+    "DI",
+    "Eingänge",
+    "Ausgänge",
+    "Waveshare"
+  ],
+  "slave": {
+    "id": 1,
+    "address": 1,
+    "name": "WaveShare 8xDI/8xDO",
+    "requestInterval": 30,
+    "isActive": false,
+    "isSavingOnStorage": false,
+    "description": "Handbuch: https://www.waveshare.com/wiki/Modbus_RTU_IO_8CH#Overview",
+    "registers": [
+      {
+        "name": "DI-1",
+        "unit": "",
+        "address": 0,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-2",
+        "unit": "",
+        "address": 1,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-3",
+        "unit": "",
+        "address": 2,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-4",
+        "unit": "",
+        "address": 3,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-5",
+        "unit": "",
+        "address": 4,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-6",
+        "unit": "",
+        "address": 5,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-7",
+        "unit": "",
+        "address": 6,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DI-8",
+        "unit": "",
+        "address": 7,
+        "type": "discrete",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-1",
+        "unit": "",
+        "address": 0,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-2",
+        "unit": "",
+        "address": 1,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-3",
+        "unit": "",
+        "address": 2,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-4",
+        "unit": "",
+        "address": 3,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-5",
+        "unit": "",
+        "address": 4,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-6",
+        "unit": "",
+        "address": 5,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-7",
+        "unit": "",
+        "address": 6,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      },
+      {
+        "name": "DO-8",
+        "unit": "",
+        "address": 7,
+        "type": "coil",
+        "datatype": "bool",
+        "swap": "none",
+        "changeOfValue": 1
+      }
+    ],
+    "resetRegisters": [],
+    "writeRegisters": [
+      {
+        "name": "DO-1",
+        "address": 0,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-2",
+        "address": 1,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-3",
+        "address": 2,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-4",
+        "address": 3,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-5",
+        "address": 4,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-6",
+        "address": 5,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-7",
+        "address": 6,
+        "type": "coil",
+        "description": ""
+      },
+      {
+        "name": "DO-8",
+        "address": 7,
+        "type": "coil",
+        "description": ""
+      }
+    ]
+  }
+}
