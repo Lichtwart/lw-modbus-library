@@ -17,17 +17,11 @@ Note that this library is read live from `main`: a merged commit is in the UI
 within about five minutes, regardless of which version it lands in. The version
 number records what the library contained, it does not gate a release.
 
-## [Unreleased]
+## 1.1.0
 
 ### Added
 
-- `devices/WAGO-879-3040.json` — **WAGO 879-3040** (Energiezähler, Wandler,
-  MID). Voltage, frequency, current, active power and total active energy as
-  `float32` holding registers with `swap: "word "`: the meter sends CDAB even
-  though its manual says Float ABCD. Addresses as in the manual's register map
-  (0-based). Reactive/apparent power, power factor, import/export energy and
-  reactive energy as inactive read registers (from the manual, not tested on a
-  device). Verified on 16 meters in the field, 2026-10-30.
+- feat: **WAGO 879-3040**
 
 ## [1.0.0] - 2026-09-04
 
