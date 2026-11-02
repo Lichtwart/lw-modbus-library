@@ -1,0 +1,19 @@
+{
+  "name": "lw-modbus-library",
+  "version": "1.0.0",
+  "description": "Default global Lichtwart Modbus device library for the modbus dashboard.",
+  "keywords": [
+    "modbus",
+    "library"
+  ],
+  "homepage": "https://github.com/Lichtwart/lw-modbus-library#readme",
+  "bugs": {
+    "url": "https://github.com/Lichtwart/lw-modbus-library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lichtwart/lw-modbus-library.git"
+  },
+  "license": "ISC",
+  "author": "sl@lichtwart.io"
+}
