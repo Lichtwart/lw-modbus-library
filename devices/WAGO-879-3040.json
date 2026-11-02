@@ -1,0 +1,143 @@
+{
+  "type": "lw-modbus-slave",
+  "tags": [
+    "Energiezähler",
+    "WAGO",
+    "Wandler",
+    "MID"
+  ],
+  "slave": {
+    "id": 1,
+    "name": "WAGO 879-3040",
+    "address": 1,
+    "requestInterval": 30,
+    "isActive": false,
+    "isSavingOnStorage": false,
+    "description": "3-Phasen-Energiezähler für Wandleranschluss (1 A / 5 A), MID. Werkseinstellung 9600 8E1, Adresse 1: am Zähler Parität auf none stellen (Core 8N1). Adressen wie Registermap im Handbuch (Anhang A3.2), Zähler liefert Float in Wortreihenfolge CDAB, obwohl das Handbuch ABCD angibt.",
+    "registers": [
+      {
+        "name": "L1-Spannung",
+        "unit": "V",
+        "address": 20482,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "L2-Spannung",
+        "unit": "V",
+        "address": 20484,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "L3-Spannung",
+        "unit": "V",
+        "address": 20486,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Frequenz",
+        "unit": "Hz",
+        "address": 20488,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "L1-Strom",
+        "unit": "A",
+        "address": 20492,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "L2-Strom",
+        "unit": "A",
+        "address": 20494,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "L3-Strom",
+        "unit": "A",
+        "address": 20496,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Wirkleistung",
+        "unit": "kW",
+        "address": 20498,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Wirkenergie",
+        "unit": "kWh",
+        "address": 24576,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      }
+    ],
+    "inactiveReadRegisters": [
+      {
+        "name": "Blindleistung",
+        "unit": "kvar",
+        "address": 20506,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Scheinleistung",
+        "unit": "kVA",
+        "address": 20514,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Leistungsfaktor",
+        "unit": "",
+        "address": 20522,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Wirkenergie Bezug",
+        "unit": "kWh",
+        "address": 24588,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Wirkenergie Abgabe",
+        "unit": "kWh",
+        "address": 24600,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      },
+      {
+        "name": "Blindenergie",
+        "unit": "kvarh",
+        "address": 24612,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "word"
+      }
+    ],
+    "resetRegisters": []
+  }
+}

@@ -17,7 +17,11 @@ Note that this library is read live from `main`: a merged commit is in the UI
 within about five minutes, regardless of which version it lands in. The version
 number records what the library contained, it does not gate a release.
 
-## [Unreleased]
+## 1.1.0
+
+### Added
+
+- feat: **WAGO 879-3040**
 
 ## [1.0.0] - 2026-09-04
 
