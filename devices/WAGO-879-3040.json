@@ -13,7 +13,7 @@
     "requestInterval": 30,
     "isActive": false,
     "isSavingOnStorage": false,
-    "description": "3-Phasen-Energiezähler für Wandleranschluss (1 A / 5 A), MID. Werkseinstellung 9600 8E1, Adresse 1: am Zähler Parität auf none stellen (Core 8N1). Adressen wie Registermap im Handbuch (Anhang A3.2), Zähler liefert Float in Wortreihenfolge CDAB, obwohl das Handbuch ABCD angibt. Verifiziert an 16 Zählern im Feld, 30.10.2026. Inaktive Leseregister nach Handbuch, nicht am Gerät geprüft.",
+    "description": "3-Phasen-Energiezähler für Wandleranschluss (1 A / 5 A), MID. Werkseinstellung 9600 8E1, Adresse 1: am Zähler Parität auf none stellen (Core 8N1). Adressen wie Registermap im Handbuch (Anhang A3.2), Zähler liefert Float in Wortreihenfolge CDAB, obwohl das Handbuch ABCD angibt.",
     "registers": [
       {
         "name": "L1-Spannung",
@@ -21,8 +21,7 @@
         "address": 20482,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "L2-Spannung",
@@ -30,8 +29,7 @@
         "address": 20484,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "L3-Spannung",
@@ -39,8 +37,7 @@
         "address": 20486,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Frequenz",
@@ -48,8 +45,7 @@
         "address": 20488,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "L1-Strom",
@@ -57,8 +53,7 @@
         "address": 20492,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "L2-Strom",
@@ -66,8 +61,7 @@
         "address": 20494,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "L3-Strom",
@@ -75,8 +69,7 @@
         "address": 20496,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Wirkleistung",
@@ -84,8 +77,7 @@
         "address": 20498,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Wirkenergie",
@@ -93,8 +85,7 @@
         "address": 24576,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       }
     ],
     "inactiveReadRegisters": [
@@ -104,8 +95,7 @@
         "address": 20506,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Scheinleistung",
@@ -113,8 +103,7 @@
         "address": 20514,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Leistungsfaktor",
@@ -122,8 +111,7 @@
         "address": 20522,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Wirkenergie Bezug",
@@ -131,8 +119,7 @@
         "address": 24588,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Wirkenergie Abgabe",
@@ -140,8 +127,7 @@
         "address": 24600,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       },
       {
         "name": "Blindenergie",
@@ -149,8 +135,7 @@
         "address": 24612,
         "type": "holding",
         "datatype": "float32",
-        "swap": "word ",
-        "scalingFactor": 1
+        "swap": "word "
       }
     ],
     "resetRegisters": []
