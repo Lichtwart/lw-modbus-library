@@ -1,0 +1,219 @@
+{
+  "type": "lw-modbus-slave",
+  "tags": [
+    "Energiezähler",
+    "Finder",
+    "Wandler",
+    "1-Phase"
+  ],
+  "slave": {
+    "id": 1,
+    "address": 1,
+    "name": "Finder 1-Phase 1",
+    "requestInterval": 30,
+    "isSavingOnStorage": false,
+    "isActive": false,
+    "registers": [
+      {
+        "name": "Betriebszeit",
+        "unit": "s",
+        "address": 103,
+        "type": "input",
+        "datatype": "int32",
+        "scalingFactor": 0.0,
+        "swap": "none"
+      },
+      {
+        "name": "Frequenz",
+        "unit": "Hz",
+        "address": 105,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Spannung_L1",
+        "unit": "V",
+        "address": 107,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Strom_L1",
+        "unit": "A",
+        "address": 126,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Wirkleistung",
+        "unit": "W",
+        "address": 140,
+        "type": "input",
+        "datatype": "float24s",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Wirkleistung_L1",
+        "unit": "W",
+        "address": 142,
+        "type": "input",
+        "datatype": "float24s",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Spitzenstrom_L1",
+        "unit": "A",
+        "address": 5626,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Wirkenergie",
+        "unit": "Wh",
+        "address": 462,
+        "type": "input",
+        "datatype": "uint32",
+        "scalingFactor": 0.1,
+        "swap": "none"
+      }
+    ],
+    "inactiveReadRegisters": [
+      {
+        "name": "Ges_Blindleistung",
+        "unit": "VAR",
+        "address": 148,
+        "type": "input",
+        "datatype": "float24s",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Blindleistung_L1",
+        "unit": "VAR",
+        "address": 150,
+        "type": "input",
+        "datatype": "float24s",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Scheinleistung",
+        "unit": "VA",
+        "address": 156,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Scheinleistung_L1",
+        "unit": "VA",
+        "address": 158,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Leistungsfaktor_L1",
+        "unit": "",
+        "address": 166,
+        "type": "input",
+        "datatype": "pf32",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Leistungswinkel",
+        "unit": "deg",
+        "address": 172,
+        "type": "input",
+        "datatype": "int16",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Alarmstatus_G1G2",
+        "unit": "",
+        "address": 191,
+        "type": "input",
+        "datatype": "uint16",
+        "scalingFactor": 0.0,
+        "swap": "none"
+      },
+      {
+        "name": "Pruefsummenstatus",
+        "unit": "",
+        "address": 400,
+        "type": "input",
+        "datatype": "uint16",
+        "scalingFactor": 0.0,
+        "swap": "none"
+      },
+      {
+        "name": "S1",
+        "unit": "A",
+        "address": 138,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "SW_Referenz",
+        "unit": "",
+        "address": 13,
+        "type": "input",
+        "datatype": "uint16",
+        "scalingFactor": 0.0,
+        "swap": "none"
+      },
+      {
+        "name": "Statusregister",
+        "unit": "",
+        "address": 44,
+        "type": "input",
+        "datatype": "uint16",
+        "scalingFactor": 0.0,
+        "swap": "none"
+      },
+      {
+        "name": "Phasen_Gueltig",
+        "unit": "",
+        "address": 101,
+        "type": "input",
+        "datatype": "uint16",
+        "scalingFactor": 0.0,
+        "swap": "none"
+      },
+      {
+        "name": "Spannung_Mittel",
+        "unit": "V",
+        "address": 113,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      },
+      {
+        "name": "Strom_Mittel",
+        "unit": "A",
+        "address": 136,
+        "type": "input",
+        "datatype": "float24u",
+        "scalingFactor": 1.0,
+        "swap": "none"
+      }
+    ]
+  }
+}
