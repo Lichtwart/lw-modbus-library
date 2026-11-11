@@ -4,7 +4,8 @@
     "Energiezähler",
     "WAGO",
     "Wandler",
-    "MID"
+    "MID",
+    "3-Phase"
   ],
   "slave": {
     "id": 1,
