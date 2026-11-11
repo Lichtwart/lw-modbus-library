@@ -20,7 +20,6 @@
         "address": 103,
         "type": "input",
         "datatype": "int32",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -29,7 +28,6 @@
         "address": 105,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -38,7 +36,6 @@
         "address": 107,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -47,7 +44,6 @@
         "address": 109,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -56,7 +52,6 @@
         "address": 111,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -65,7 +60,6 @@
         "address": 126,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -74,7 +68,6 @@
         "address": 128,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -83,7 +76,6 @@
         "address": 130,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -92,7 +84,6 @@
         "address": 140,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -101,7 +92,6 @@
         "address": 142,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -110,7 +100,6 @@
         "address": 144,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -119,7 +108,6 @@
         "address": 146,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -139,7 +127,6 @@
         "address": 13,
         "type": "input",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -148,7 +135,6 @@
         "address": 44,
         "type": "input",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -157,7 +143,6 @@
         "address": 101,
         "type": "input",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -166,7 +151,6 @@
         "address": 113,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -175,7 +159,6 @@
         "address": 136,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -184,7 +167,6 @@
         "address": 138,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -193,7 +175,6 @@
         "address": 148,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -202,7 +183,6 @@
         "address": 150,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -211,7 +191,6 @@
         "address": 152,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -220,7 +199,6 @@
         "address": 154,
         "type": "input",
         "datatype": "float24s",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -229,7 +207,6 @@
         "address": 156,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -238,7 +215,6 @@
         "address": 158,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -247,7 +223,6 @@
         "address": 160,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -256,7 +231,6 @@
         "address": 162,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -265,7 +239,6 @@
         "address": 166,
         "type": "input",
         "datatype": "pf32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -274,7 +247,6 @@
         "address": 168,
         "type": "input",
         "datatype": "pf32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -283,7 +255,6 @@
         "address": 170,
         "type": "input",
         "datatype": "pf32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -292,7 +263,6 @@
         "address": 172,
         "type": "input",
         "datatype": "int16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -301,7 +271,6 @@
         "address": 191,
         "type": "input",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -310,7 +279,6 @@
         "address": 192,
         "type": "input",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -319,7 +287,6 @@
         "address": 400,
         "type": "input",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -328,7 +295,6 @@
         "address": 5626,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -337,7 +303,6 @@
         "address": 5628,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -346,7 +311,6 @@
         "address": 5630,
         "type": "input",
         "datatype": "float24u",
-        "scalingFactor": 1.0,
         "swap": "none"
       }
     ]

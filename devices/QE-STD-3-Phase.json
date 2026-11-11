@@ -20,7 +20,6 @@
         "address": 8,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -29,7 +28,6 @@
         "address": 29,
         "type": "holding",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -38,7 +36,6 @@
         "address": 238,
         "type": "holding",
         "datatype": "uint32",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -47,7 +44,6 @@
         "address": 244,
         "type": "holding",
         "datatype": "int64",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -56,7 +52,6 @@
         "address": 248,
         "type": "holding",
         "datatype": "int64",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -65,7 +60,6 @@
         "address": 252,
         "type": "holding",
         "datatype": "int64",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -74,7 +68,6 @@
         "address": 256,
         "type": "holding",
         "datatype": "int64",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -83,7 +76,6 @@
         "address": 374,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -92,7 +84,6 @@
         "address": 376,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -101,7 +92,6 @@
         "address": 378,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -110,7 +100,6 @@
         "address": 380,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -119,7 +108,6 @@
         "address": 384,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -128,7 +116,6 @@
         "address": 386,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -137,7 +124,6 @@
         "address": 388,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -146,7 +132,6 @@
         "address": 390,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -155,7 +140,6 @@
         "address": 424,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -164,7 +148,6 @@
         "address": 438,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -173,7 +156,6 @@
         "address": 440,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -182,7 +164,6 @@
         "address": 442,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -191,7 +172,6 @@
         "address": 444,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -200,7 +180,6 @@
         "address": 358,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -209,7 +188,6 @@
         "address": 360,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -218,7 +196,6 @@
         "address": 362,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       }
     ],
@@ -229,7 +206,6 @@
         "address": 0,
         "type": "holding",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -238,7 +214,6 @@
         "address": 1,
         "type": "holding",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -247,7 +222,6 @@
         "address": 7,
         "type": "holding",
         "datatype": "uint16",
-        "scalingFactor": 0.0,
         "swap": "none"
       },
       {
@@ -256,7 +230,6 @@
         "address": 392,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -265,7 +238,6 @@
         "address": 394,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -274,7 +246,6 @@
         "address": 396,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -283,7 +254,6 @@
         "address": 398,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -292,7 +262,6 @@
         "address": 400,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -301,7 +270,6 @@
         "address": 402,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -310,7 +278,6 @@
         "address": 404,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -319,7 +286,6 @@
         "address": 406,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -328,7 +294,6 @@
         "address": 408,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -337,7 +302,6 @@
         "address": 410,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -346,7 +310,6 @@
         "address": 412,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       },
       {
@@ -355,7 +318,6 @@
         "address": 414,
         "type": "holding",
         "datatype": "float32",
-        "scalingFactor": 1.0,
         "swap": "none"
       }
     ]
