@@ -17,6 +17,11 @@ Note that this library is read live from `main`: a merged commit is in the UI
 within about five minutes, regardless of which version it lands in. The version
 number records what the library contained, it does not gate a release.
 
+## 1.2.0
+
+- feat: Finder 1 & 3 phase and QE-STD 3 Phase added
+- refactor: Wago 3 phase tag added
+
 ## 1.1.0
 
 ### Added
