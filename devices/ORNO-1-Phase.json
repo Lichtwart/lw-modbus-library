@@ -1,0 +1,65 @@
+{
+  "type": "lw-modbus-slave",
+  "tags": [
+    "Energiezähler",
+    "ORNO",
+    "1-Phase"
+  ],
+  "slave": {
+    "id": 1,
+    "address": 1,
+    "name": "ORNO 1-Phase",
+    "requestInterval": 30,
+    "isSavingOnStorage": false,
+    "isActive": false,
+    "description": "ORNO Einphasen-Energiezähler (Hutschiene), Registerprofil wie in Bad Rappenau Nord seit 07/2026 im Einsatz.",
+    "registers": [
+      {
+        "name": "Spannung",
+        "unit": "V",
+        "address": 256,
+        "type": "input",
+        "datatype": "uint32",
+        "swap": "none",
+        "scalingFactor": 0.001
+      },
+      {
+        "name": "Strom",
+        "unit": "A",
+        "address": 258,
+        "type": "input",
+        "datatype": "uint32",
+        "swap": "none",
+        "scalingFactor": 0.001
+      },
+      {
+        "name": "Wirkleistung",
+        "unit": "W",
+        "address": 260,
+        "type": "input",
+        "datatype": "uint32",
+        "swap": "none",
+        "scalingFactor": 1
+      },
+      {
+        "name": "Frequenz",
+        "unit": "Hz",
+        "address": 266,
+        "type": "input",
+        "datatype": "uint16",
+        "swap": "none",
+        "scalingFactor": 0.1
+      },
+      {
+        "name": "Ges_Wirkenergie",
+        "unit": "kWh",
+        "address": 290,
+        "type": "input",
+        "datatype": "uint32",
+        "swap": "none",
+        "scalingFactor": 0.01
+      }
+    ],
+    "resetRegisters": []
+  }
+}
