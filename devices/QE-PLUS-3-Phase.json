@@ -1,0 +1,464 @@
+{
+  "type": "lw-modbus-slave",
+  "tags": [
+    "Energiezähler",
+    "QE",
+    "Wandler",
+    "3-Phase",
+    "Max-Demand"
+  ],
+  "slave": {
+    "id": 1,
+    "address": 1,
+    "name": "QE 3-Phase PLUS",
+    "requestInterval": 30,
+    "isSavingOnStorage": false,
+    "isActive": false,
+    "registers": [
+      {
+        "name": "Wandlerverhaeltnis",
+        "unit": "",
+        "address": 8,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Energieeinheit",
+        "unit": "",
+        "address": 29,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none"
+      },
+      {
+        "name": "Status1",
+        "unit": "",
+        "address": 238,
+        "type": "holding",
+        "datatype": "uint32",
+        "swap": "word "
+      },
+      {
+        "name": "Wirkenergie_L1",
+        "unit": "",
+        "address": 244,
+        "type": "holding",
+        "datatype": "int64",
+        "swap": "none"
+      },
+      {
+        "name": "Wirkenergie_L2",
+        "unit": "",
+        "address": 248,
+        "type": "holding",
+        "datatype": "int64",
+        "swap": "none"
+      },
+      {
+        "name": "Wirkenergie_L3",
+        "unit": "",
+        "address": 252,
+        "type": "holding",
+        "datatype": "int64",
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Wirkenergie",
+        "unit": "",
+        "address": 256,
+        "type": "holding",
+        "datatype": "int64",
+        "swap": "none"
+      },
+      {
+        "name": "Strom_L1",
+        "unit": "A",
+        "address": 374,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Strom_L2",
+        "unit": "A",
+        "address": 376,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Strom_L3",
+        "unit": "A",
+        "address": 378,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Strom_N",
+        "unit": "A",
+        "address": 380,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Wirkleistung_L1",
+        "unit": "W",
+        "address": 384,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Wirkleistung_L2",
+        "unit": "W",
+        "address": 386,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Wirkleistung_L3",
+        "unit": "W",
+        "address": 388,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Wirkleistung",
+        "unit": "W",
+        "address": 390,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Frequenz",
+        "unit": "Hz",
+        "address": 424,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spitzenstrom_L1",
+        "unit": "A",
+        "address": 438,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spitzenstrom_L2",
+        "unit": "A",
+        "address": 440,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spitzenstrom_L3",
+        "unit": "A",
+        "address": 442,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spitzenstrom_N",
+        "unit": "A",
+        "address": 444,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spannung_L1",
+        "unit": "V",
+        "address": 358,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spannung_L2",
+        "unit": "V",
+        "address": 360,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Spannung_L3",
+        "unit": "V",
+        "address": 362,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "MaxDemand_P_Summe",
+        "unit": "W",
+        "address": 674,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none",
+        "description": "40675: höchstes 15-min-Mittel der Gesamtwirkleistung im laufenden Monat"
+      },
+      {
+        "name": "MaxDemand_Zeit",
+        "unit": "",
+        "address": 682,
+        "type": "holding",
+        "datatype": "uint32",
+        "swap": "word ",
+        "description": "40683: Zeitpunkt dazu, Bytes Monat|Tag|Stunde|Minute"
+      },
+      {
+        "name": "MaxDemand_L1",
+        "unit": "W",
+        "address": 668,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none",
+        "description": "40669"
+      },
+      {
+        "name": "MaxDemand_L2",
+        "unit": "W",
+        "address": 670,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none",
+        "description": "40671"
+      },
+      {
+        "name": "MaxDemand_L3",
+        "unit": "W",
+        "address": 672,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none",
+        "description": "40673"
+      },
+      {
+        "name": "MaxDemand_Fenster",
+        "unit": "min",
+        "address": 24,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none",
+        "description": "40025: Mittelungsfenster in Minuten (Werk 15)"
+      }
+    ],
+    "inactiveReadRegisters": [
+      {
+        "name": "MachineID",
+        "unit": "",
+        "address": 0,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none"
+      },
+      {
+        "name": "HW-FW-Rev",
+        "unit": "",
+        "address": 1,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none"
+      },
+      {
+        "name": "LedSetting",
+        "unit": "",
+        "address": 7,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none"
+      },
+      {
+        "name": "ReactPower1",
+        "unit": "VAR",
+        "address": 392,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "ReactPower2",
+        "unit": "VAR",
+        "address": 394,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "ReactPower3",
+        "unit": "VAR",
+        "address": 396,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "ReactPowerSum",
+        "unit": "VAR",
+        "address": 398,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "AppPower1",
+        "unit": "VA",
+        "address": 400,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "AppPower2",
+        "unit": "VA",
+        "address": 402,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "AppPower3",
+        "unit": "VA",
+        "address": 404,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "AppPowerSum",
+        "unit": "VA",
+        "address": 406,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Leistungsfaktor_L1",
+        "unit": "",
+        "address": 408,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Leistungsfaktor_L2",
+        "unit": "",
+        "address": 410,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Leistungsfaktor_L3",
+        "unit": "",
+        "address": 412,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "Ges_Leistungsfaktor",
+        "unit": "",
+        "address": 414,
+        "type": "holding",
+        "datatype": "float32",
+        "swap": "none"
+      },
+      {
+        "name": "RTC_Jahr",
+        "unit": "",
+        "address": 690,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none",
+        "description": "40691"
+      },
+      {
+        "name": "RTC_Monat",
+        "unit": "",
+        "address": 691,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none",
+        "description": "40692"
+      },
+      {
+        "name": "RTC_Tag",
+        "unit": "",
+        "address": 692,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none",
+        "description": "40693"
+      },
+      {
+        "name": "RTC_Stunde",
+        "unit": "",
+        "address": 693,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none",
+        "description": "40694"
+      },
+      {
+        "name": "RTC_Minute",
+        "unit": "",
+        "address": 694,
+        "type": "holding",
+        "datatype": "uint16",
+        "swap": "none",
+        "description": "40695"
+      }
+    ],
+    "description": "QEED QE-POWER-T-PLUS mit Klappwandlern. Wie QE-STD, zusätzlich höchste Viertelstunde (Max Demand) des laufenden Monats mit Zeitpunkt. Der Monat folgt der Zähleruhr (RTC): nach dem Einbau steht sie auf 01.01.2000 und muss über die Schreibziele RTC_* gestellt werden (Jahr, Monat, Tag, Stunde, Minute, Sekunde).",
+    "writeRegisters": [
+      {
+        "name": "RTC_Jahr",
+        "address": 690,
+        "type": "register",
+        "description": "40691, z. B. 2026"
+      },
+      {
+        "name": "RTC_Monat",
+        "address": 691,
+        "type": "register",
+        "description": "40692, 1-12"
+      },
+      {
+        "name": "RTC_Tag",
+        "address": 692,
+        "type": "register",
+        "description": "40693, 1-31"
+      },
+      {
+        "name": "RTC_Stunde",
+        "address": 693,
+        "type": "register",
+        "description": "40694, 0-23, MEZ ganzjährig empfohlen"
+      },
+      {
+        "name": "RTC_Minute",
+        "address": 694,
+        "type": "register",
+        "description": "40695, 0-59"
+      },
+      {
+        "name": "RTC_Sekunde",
+        "address": 695,
+        "type": "register",
+        "description": "40696, 0-59"
+      }
+    ]
+  }
+}
