@@ -36,7 +36,7 @@
         "address": 238,
         "type": "holding",
         "datatype": "uint32",
-        "swap": "none"
+        "swap": "word "
       },
       {
         "name": "Wirkenergie_L1",

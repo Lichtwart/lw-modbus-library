@@ -33,6 +33,14 @@ number records what the library contained, it does not gate a release.
   current, active power, frequency and total active energy (kWh) as input
   registers, profile in use at Bad Rappenau Nord since 07/2026.
 
+### Fixed
+
+- `devices/QE-STD-3-Phase.json`: `Status1` (holding 238, `uint32`) now uses
+  `swap "word "`. The meter sends 32-bit values low word first ("32b-LSW"),
+  while the firmware reads `uint32` high word first under `swap "none"`, so the
+  status bits came out in the wrong order. Confirmed by the firmware author
+  (CORE-427) and on the meters at Bad Rappenau Nord (13. and 15.11.2026).
+
 ## 1.2.0
 
 - feat: Finder 1 & 3 phase and QE-STD 3 Phase added
