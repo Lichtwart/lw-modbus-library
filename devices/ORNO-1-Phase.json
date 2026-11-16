@@ -38,8 +38,7 @@
         "address": 260,
         "type": "input",
         "datatype": "uint32",
-        "swap": "none",
-        "scalingFactor": 1
+        "swap": "none"
       },
       {
         "name": "Frequenz",
