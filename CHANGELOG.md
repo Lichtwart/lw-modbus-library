@@ -19,6 +19,8 @@ number records what the library contained, it does not gate a release.
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-11-16
+
 ### Added
 
 - `devices/QE-PLUS-3-Phase.json`: **QE 3-Phase PLUS** (Energiezähler, QE,
@@ -28,10 +30,13 @@ number records what the library contained, it does not gate a release.
   clock (RTC, holding 690–695) is included as inactive read registers and as
   write targets, because the RTC starts at 01.01.2000 after installation and
   the demand month follows it. `Status1` uses `swap "word "`, verified on a PLUS
-  in the field (Bad Rappenau Nord, 12.11.2026).
+  in the field (Bad Rappenau Nord, 12.11.2026). The demand registers use German
+  names: `Ges_Spitzenleistung`, `Spitzenleistung_L1`–`L3`,
+  `Spitzen_Zeitpunkt` and `Spitzen_AVG_Fenster`.
 - `devices/ORNO-1-Phase.json`: **ORNO 1-Phase** (Energiezähler, ORNO). Voltage,
   current, active power, frequency and total active energy (kWh) as input
-  registers, profile in use at Bad Rappenau Nord since 07/2026.
+  registers, profile in use at Bad Rappenau Nord since 07/2026. `Wirkleistung`
+  (input 260) has no `scalingFactor` (the earlier factor of 1 did nothing).
 
 ### Fixed
 
