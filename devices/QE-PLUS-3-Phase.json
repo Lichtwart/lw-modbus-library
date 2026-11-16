@@ -200,7 +200,7 @@
         "swap": "none"
       },
       {
-        "name": "MaxDemand_P_Summe",
+        "name": "Ges_Spitzenleistung",
         "unit": "W",
         "address": 674,
         "type": "holding",
@@ -209,7 +209,7 @@
         "description": "40675: höchstes 15-min-Mittel der Gesamtwirkleistung im laufenden Monat"
       },
       {
-        "name": "MaxDemand_Zeit",
+        "name": "Spitzen_Zeitpunkt",
         "unit": "",
         "address": 682,
         "type": "holding",
@@ -218,7 +218,7 @@
         "description": "40683: Zeitpunkt dazu, Bytes Monat|Tag|Stunde|Minute"
       },
       {
-        "name": "MaxDemand_L1",
+        "name": "Spitzenleistung_L1",
         "unit": "W",
         "address": 668,
         "type": "holding",
@@ -227,7 +227,7 @@
         "description": "40669"
       },
       {
-        "name": "MaxDemand_L2",
+        "name": "Spitzenleistung_L2",
         "unit": "W",
         "address": 670,
         "type": "holding",
@@ -236,7 +236,7 @@
         "description": "40671"
       },
       {
-        "name": "MaxDemand_L3",
+        "name": "Spitzenleistung_L3",
         "unit": "W",
         "address": 672,
         "type": "holding",
@@ -245,7 +245,7 @@
         "description": "40673"
       },
       {
-        "name": "MaxDemand_Fenster",
+        "name": "Spitzen_AVG_Fenster",
         "unit": "min",
         "address": 24,
         "type": "holding",
