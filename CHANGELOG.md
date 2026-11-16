@@ -17,6 +17,35 @@ Note that this library is read live from `main`: a merged commit is in the UI
 within about five minutes, regardless of which version it lands in. The version
 number records what the library contained, it does not gate a release.
 
+## [Unreleased]
+
+## [1.3.0] - 2026-11-16
+
+### Added
+
+- `devices/QE-PLUS-3-Phase.json`: **QE 3-Phase PLUS** (Energiezähler, QE,
+  Max-Demand). Same registers as QE-STD, plus the monthly 15-minute maximum
+  demand (total and per phase, holding 668–674), its timestamp (holding 682,
+  `uint32` with `swap "word "`) and the demand window (holding 24). The meter
+  clock (RTC, holding 690–695) is included as inactive read registers and as
+  write targets, because the RTC starts at 01.01.2000 after installation and
+  the demand month follows it. `Status1` uses `swap "word "`, verified on a PLUS
+  in the field (Bad Rappenau Nord, 12.11.2026). The demand registers use German
+  names: `Ges_Spitzenleistung`, `Spitzenleistung_L1`–`L3`,
+  `Spitzen_Zeitpunkt` and `Spitzen_AVG_Fenster`.
+- `devices/ORNO-1-Phase.json`: **ORNO 1-Phase** (Energiezähler, ORNO). Voltage,
+  current, active power, frequency and total active energy (kWh) as input
+  registers, profile in use at Bad Rappenau Nord since 07/2026. `Wirkleistung`
+  (input 260) has no `scalingFactor` (the earlier factor of 1 did nothing).
+
+### Fixed
+
+- `devices/QE-STD-3-Phase.json`: `Status1` (holding 238, `uint32`) now uses
+  `swap "word "`. The meter sends 32-bit values low word first ("32b-LSW"),
+  while the firmware reads `uint32` high word first under `swap "none"`, so the
+  status bits came out in the wrong order. Confirmed by the firmware author
+  (CORE-427) and on the meters at Bad Rappenau Nord (13. and 15.11.2026).
+
 ## 1.2.0
 
 - feat: Finder 1 & 3 phase and QE-STD 3 Phase added
